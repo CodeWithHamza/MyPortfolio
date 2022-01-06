@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+nav{
+ height: 75px;
+ width: 100%;
+ background-color: #d62828;
+ padding: 0;
+ margin: 0;
+ box-shadow: 3px 21px 13px -2px rgba(164,34,34,0.51);
+}
+.logo{
+    color:black;
+    opacity: 0.9;
+    float: left;
+    background-color: #d62828;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+.menu{
+    background-color: d62828;
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    background-color: #d62828;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 10px;
+    float: right;
+}
+.menu ul li{
+    display: inline;
+    font-size: 30px;
+    text-decoration: none;
+    border: 5px  ridge black;
+    border-radius: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    background-color:#d62828;
+    color: black;
+    
+}
+.info img{
+    border-radius: 650px;
+    border: 5px ridge #d62828;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    box-shadow: -1px 6px 27px 14px rgba(110,110,110,0.47);
+}
+.info .starter{
+    color: white;
+    text-shadow: 5px 1px 3px rgba(213, 160, 146, 0.86);
+    font-family: 'Bebas Neue', cursive;
+    font-size:70px;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+.info .starter2{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size:65px;
+    text-shadow: 5px 1px 3px rgba(213, 160, 146, 0.86);
+    position: absolute;
+    left: 1050px;
+    top: 350px;
+}
+.info h1{
+    font-family: 'Rampart One', cursive;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+.info .AboutMe{
+    font-size: 25px;
+    color:white;
+    position: absolute;
+    left: 250px;
+    top: 800px;
+    font-family: 'Indie Flower', cursive;
+}
+.skills h1{
+    color: red;
+    font-size: 43px;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    letter-spacing: 15px;
+    text-decoration: wavy;
+    border: 6px solid white;
+    border-radius: 17px;
+    outline: 2px ridge red;
+    outline-offset: 5px;
+    outline-width: 6px;
+    display: flex;
+}
+.skills .box1{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    position: absolute;
+    left: 545px;
+    top: 1130px;
+    border:  5px ridge #d62828;
+    border-radius: 8px;
+    box-shadow: 1px 2px 7px 6px rgba(214,40,40,0.39);
+}
+.box1 img{
+    border: 3px ridge #d62828;
+    border-radius: 50px;
+    box-shadow: 1px 0px 7px 4px rgba(214,40,40,0.39);
+    position: absolute;
+    left: 115px;
+    top: 10px;
+}
+.box1 p{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.skills .box2{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    position: absolute;
+    border:  5px ridge #d62828;
+    border-radius: 8px;
+    box-shadow: 1px 2px 7px 6px rgba(214,40,40,0.39);
+    top: 1550px;
+    left: 545px;
+    color: white;
+    
+}
+.box2 img{
+    border: 3px ridge #d62828;
+    border-radius: 50px;
+    box-shadow: 1px 0px 7px 4px rgba(214,40,40,0.39);
+    position: absolute;
+    left: 115px;
+    top: 10px;
+}
+.box2 p{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.skills .box3{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    position: absolute;
+    border:  5px ridge #d62828;
+    border-radius: 8px;
+    box-shadow: 1px 2px 7px 6px rgba(214,40,40,0.39);
+    left: 545px;
+    top: 1970px;
+    color: white;
+}
+.box3 img{
+    border: 3px ridge #d62828;
+    border-radius: 50px;
+    box-shadow: 1px 0px 7px 4px rgba(214,40,40,0.39);
+    position: absolute;
+    left: 115px;
+    top: 10px;
+}
+.box3 p{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    top:2400px ;
+    box-shadow: -1px 3px 9px 6px rgba(214,40,40,0.35); ;
+}
+
+footer ul li a{
+    padding: 20px;
+    background-color: black;
+    font-size: px;
+    float: right;
+}
+
+footer ul li a i {
+    font-size: 35px;
+    background-color: black;
+    color: red;
+}
+
+/* for box shadow auto 
+visit https://cssgenerator.org/box-shadow-css-generator.html
+*/
